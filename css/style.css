@@ -1,0 +1,114 @@
+:root {
+    --page-border: #0c8ef5;
+    --text: #0b0b0b;
+    --muted: #9aa0a6;
+    --white: #ffffff;
+    --badge-yellow: #ffd54a;
+    --badge-green: #8dc63f;
+}
+
+* {
+    box-sizing: border-box
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    background: #ffffff;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+.page {
+    width: 1180px;
+    margin: 24px auto;
+    position: relative;
+    overflow: hidden
+}
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px 48px
+}
+
+.logo {
+    font-weight: 600;
+    font-size: 16px
+}
+
+.top-nav {
+    display: flex;
+    gap: 28px
+}
+
+.top-nav a {
+    text-decoration: none;
+    font-size: 13px
+}
+
+.hero {
+    padding: 80px 140px 160px 80px;
+    min-height: 420px
+}
+
+.hero h1 {
+    font-size: 56px;
+    margin: 0 0 18px;
+    line-height: 1.02;
+    font-weight: 800;
+    letter-spacing: 0.2px
+}
+
+.hero p {
+    font-size: 44px;
+    margin: 0;
+    line-height: 1.08;
+    font-weight: 700;
+    max-width: 820px
+}
+
+.site-footer {
+    border-top: 1px solid #eceff2;
+    padding: 36px 48px;
+    font-size: 12px
+}
+
+.footer-left {
+    display: inline-block
+}
+
+.badge {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    position: absolute;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08)
+}
+
+.badge-1 {
+    left: 120px;
+    top: 36px
+}
+
+.badge-2 {
+    left: 164px;
+    top: 36px
+}
+
+.dot {
+    width: 34px;
+    height: 34px;
+    border-radius: 17px;
+    position: absolute;
+    left: 300px;
+    top: 190px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
