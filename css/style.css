@@ -294,7 +294,8 @@ body {
     width: 25px;
     height: 25px;
 }
-.flash{
+
+.flash {
     width: 196px;
     height: 76px;
     font-weight: 900;
@@ -302,25 +303,162 @@ body {
     align-items: center;
     justify-content: center;
 }
-.plane{
+
+.plane {
     width: 1280px;
     height: 905px;
 }
-.plane img{
+
+.plane img {
     width: 1207px;
     height: 772px;
     margin-bottom: 50px;
 }
-.finesse{
+
+.finesse {
     width: 640px;
     height: 74px;
     top: 831px;
 }
-.finesse p{
+
+.finesse p {
     width: 96px;
     height: 38px;
 }
-.finesse .redisgn{
+
+.finesse .redisgn {
     width: 135px;
     height: 38px;
+}
+
+.fellas {
+    width: 1280px;
+    height: 905px;
+    top: 1005px;
+}
+
+.black_img {
+    width: 1156px;
+    height: 763px;
+    top: -0.44px;
+    left: 62px;
+}
+
+.visual {
+    width: 640px;
+    height: 74px;
+    top: 831px;
+    margin-top: 25px;
+}
+
+.iphone {
+    width: 1280px;
+    height: 905px;
+    top: 2010px;
+}
+
+.iphone img {
+    width: 1128px;
+    height: 767px;
+}
+
+.apple {
+    width: 640px;
+    height: 74px;
+    top: 831px;
+    margin-top: 25px;
+}
+
+.sand {
+    width: 1280px;
+    height: 905px;
+    top: 3015px;
+}
+
+.sand img {
+    width: 1081px;
+    height: 774px;
+    top: 21.56px;
+    left: 99px;
+}
+
+.designo {
+    width: 640px;
+    height: 74px;
+    top: 831px;
+    margin-top: 25px;
+}
+
+.iphone_x {
+    width: 1280px;
+    height: 905px;
+    top: 4020px;
+}
+
+.tron {
+    width: 640px;
+    height: 74px;
+    top: 831px;
+}
+
+.iphone_x img {
+    width: 1246px;
+    height: 727px;
+    top: -0.44px;
+    left: 17px;
+    margin-bottom: 25px;
+}
+
+.vostok_footer {
+    width: 1440px;
+    height: 800px;
+    background-color: black;
+    top: 9416px;
+}
+
+
+.powered {
+    width: 526px;
+    height: 210px;
+    top: 241px;
+    left: 457px;
+    color: white;
+    margin-left: 310px;
+    text-align: center;
+    margin-top: 300px;
+}
+
+.studio{
+    padding: 80px 0px;
+}
+.get {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -70px;
+    margin-right: 300px;
+    line-height: 26px;
+    letter-spacing: 0.56px;
+    gap: 15px;
+}
+
+.get a {
+    font-size: 13px;
+    font-weight: 400;
+    color: #818181;
+
+}
+
+.pinterest {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-right: 300px;
+    gap: 15px;
+}
+.pinterest a{
+    color: #818181;
+    font-size: 12px;
+    font-weight: 400;
 }
